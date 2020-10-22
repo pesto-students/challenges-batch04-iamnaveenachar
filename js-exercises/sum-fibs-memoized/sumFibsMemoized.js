@@ -3,8 +3,8 @@ function sumFibs(num) {
   if (num === 1) return 2;
   const fibonacciNums = [1, 1];
   let nextFibonacciNums = 
-  fibonacciNums[fibonacciNums.length-1] +
-  fibonacciNums[fibonacciNums.length-2];
+  fibonacciNums[fibonacciNums.length - 1] +
+  fibonacciNums[fibonacciNums.length - 2];
 
   while (nextFibonacciNums <= num) {
     fibonacciNums.push(nextFibonacciNums);
